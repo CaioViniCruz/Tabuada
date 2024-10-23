@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/styles.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <h1 class="titulo">Tabuada do <span class="numero" id="numero"></span></h1>
+    <main class="container" id="resultados"></main>
+
+    <script>
+        // Pega os parâmetros da URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const numero = parseInt(urlParams.get('tabuada')) || 1;
+        const sequencia = parseInt(urlParams.get('sequencia')) || 10;
+        
+        document.getElementById('numero').textContent = numero;
+
+        let resultadoHTML = '';
+        for (let i = 0; i <= sequencia; i++) {
+            resultadoHTML += `<div class="multiplicacao">${numero} x <span class="valor">${i}</span> = <span class="resultado">${numero * i}</span></div>`;
+        }
+        document.getElementById('resultados').innerHTML = resultadoHTML;
+    </script>
+</body>
+</html>
