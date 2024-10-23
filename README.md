@@ -12,6 +12,7 @@ Este é um aplicativo web que gera a tabuada de um número informado pelo usuár
 2. Adicione dois parâmetros à URL:
 
 tabuada: O número que será multiplicado.
+
 sequencia: A quantidade de multiplicações que deseja exibir.
 
 3. Exemplo de uso:
