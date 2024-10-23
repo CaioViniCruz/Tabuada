@@ -4,8 +4,18 @@ Este é um aplicativo web que gera a tabuada de um número informado pelo usuár
 
 ## Como usar
 
-Acesse a URL:
-https://tabuada-h9vi3a947-caiocruzs-projects.vercel.app/?tabuada=3&sequencia=30
+1. Acesse a URL:
+
+https://tabuada-black-three.vercel.app/
+
+2. Adicione dois parâmetros à URL:
+
+tabuada: O número que será multiplicado.
+sequencia: A quantidade de multiplicações que deseja exibir.
+
+3. Exemplo de uso:
+
+https://tabuada-black-three.vercel.app/?tabuada=2&sequencia=5
 
 
 ## Tecnologias
