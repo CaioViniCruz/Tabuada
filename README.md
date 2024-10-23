@@ -5,7 +5,7 @@ Este é um aplicativo web que gera a tabuada de um número informado pelo usuár
 ## Como usar
 
 Acesse a URL:
-https://tabuada-projeto-qng16d0cu-caiocruzs-projects.vercel.app/?tabuada=3&sequencia=30
+https://tabuada-h9vi3a947-caiocruzs-projects.vercel.app/?tabuada=3&sequencia=30
 
 
 ## Tecnologias
